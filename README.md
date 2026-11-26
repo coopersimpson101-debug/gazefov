@@ -14,7 +14,9 @@ IR eye camera with exact ground truth, a hand-written pupil + corneal-glint pipe
 calibration and two gaze estimators, and a WebGPU Gaussian-splat renderer that spends full
 resolution only where the eye is looking.
 
-[How it works](#how-it-works) · [Results](#results) · [Eye-tracking maths](docs/eye-tracking.md) ·
+[![▶ Live demo](https://img.shields.io/badge/%E2%96%B6%20Live%20demo-open%20in%20your%20browser-67E8F9?style=for-the-badge)](https://coopersimpson101-debug.github.io/gazefov/)
+
+[Live demo](https://coopersimpson101-debug.github.io/gazefov/) · [How it works](#how-it-works) · [Results](#results) · [Eye-tracking maths](docs/eye-tracking.md) ·
 [Foveation](docs/foveation.md) · [Hardware & eye safety](docs/hardware.md) ·
 [Gaze protocol](docs/protocol.md) · [Vanta adapter](docs/vanta-adapter.md)
 
@@ -58,7 +60,7 @@ at 2160×2160 per eye. All three are produced by scripts in this repo (`npm run 
 | real IR eye dataset evaluation | ⏳ | none downloaded; see [docs/datasets.md](docs/datasets.md) |
 | foveated renderer, composite, layout, acuity model | ✅ | 14 unit tests + 3 GPU tests on Dawn (RTX 2060) |
 | frame-time saving + image quality | ✅ measured here | `results/foveation_bench.json` (procedural splat scene) |
-| browser demo (`render/index.html`, pointer as gaze) | ⏳ | builds (`npm run build`); not opened in a browser during development — the same renderer is verified headless |
+| browser demo (`render/index.html`, pointer as gaze) | ✅ | [live on GitHub Pages](https://coopersimpson101-debug.github.io/gazefov/); opened in a Chromium WebGPU browser on the RTX 2060 (2026-11-26): inset follows the pointer, F and B keys work, no console errors. Needs a WebGPU browser |
 | gaze protocol, relay, filter | ✅ | golden vector in both languages, UDP loopback, RFC 6455 vectors |
 | Vanta adapter | ⏳ | interface + host-agnostic driver; Vanta mapping needs Vanta's API |
 | IR camera + LED ring, eye safety, latency | ⏳ | design notes + calculations only — [docs/hardware.md](docs/hardware.md) |
