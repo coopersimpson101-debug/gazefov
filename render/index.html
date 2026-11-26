@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>gazefov demo</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0d1117; color: #e6edf3; font: 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    canvas { display: block; width: 100vw; height: 100vh; cursor: crosshair; }
+    #hud { position: fixed; left: 12px; top: 10px; background: #0d1117cc; padding: 8px 10px; border: 1px solid #30363d; border-radius: 6px; }
+    #hud b { color: #67e8f9; }
+  </style>
+</head>
+<body>
+  <canvas id="c"></canvas>
+  <div id="hud"><b>gazefov</b> — move the pointer (gaze) · <span id="mode">foveated</span> (F toggles, B shows blend band) · <span id="stats"></span></div>
+  <script type="module" src="./src/demo/main.ts"></script>
+</body>
+</html>

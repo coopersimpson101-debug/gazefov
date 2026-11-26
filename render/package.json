@@ -1,0 +1,33 @@
+{
+  "name": "gazefov-render",
+  "version": "0.1.0",
+  "description": "Gaze-contingent foveated Gaussian-splat rendering for WebGPU (multi-resolution inset + periphery with a smooth blend), a gaze packet protocol and a Vanta adapter interface.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coopersimpson101-debug/gazefov.git",
+    "directory": "render"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:gpu": "vitest run tests/gpu.test.ts",
+    "bench": "vite-node scripts/bench.ts --",
+    "hero": "vite-node scripts/bench.ts -- --hero ../docs/assets/foveated_frame.png --gaze-x 0.02 --gaze-y 0.04 --frames 0",
+    "relay": "vite-node scripts/relay.ts --",
+    "build": "tsc --noEmit && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@webgpu/types": "^0.1.74",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8",
+    "vite-node": "^3.2.4",
+    "vitest": "^3.2.7"
+  },
+  "optionalDependencies": {
+    "webgpu": "^0.6.2"
+  }
+}

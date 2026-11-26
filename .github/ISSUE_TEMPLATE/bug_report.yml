@@ -1,0 +1,27 @@
+name: Bug report
+description: Something is wrong in the tracker, the renderer or the docs
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include the exact command and its output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Python / Node version, GPU and browser or Dawn version
+    validations:
+      required: true
+  - type: dropdown
+    id: part
+    attributes:
+      label: Component
+      options: [tracker (python), renderer (webgpu), protocol / relay, hardware notes, docs]

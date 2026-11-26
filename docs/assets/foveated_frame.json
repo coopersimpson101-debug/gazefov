@@ -1,0 +1,33 @@
+{
+ "file": "../docs/assets/foveated_frame.png",
+ "width": 1280,
+ "height": 800,
+ "fovYDeg": 70,
+ "splats": 1000000,
+ "gazeNdc": [
+  0.02,
+  0.04
+ ],
+ "config": {
+  "peripheryScale": 0.3333333333333333,
+  "innerDeg": 8,
+  "blendDeg": 5
+ },
+ "layout": {
+  "periphery": [
+   427,
+   267
+  ],
+  "insetRect": [
+   516,
+   248,
+   273,
+   272
+  ],
+  "rInnerPx": 80.79582055488743,
+  "rOuterPx": 133.15790783590424
+ },
+ "gpuMsThisFrame": 13.041664,
+ "gpu": "nvidia turing D3D12 driver version 32.0.15.6094",
+ "date": "2026-11-26"
+}

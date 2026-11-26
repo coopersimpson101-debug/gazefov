@@ -1,0 +1,1569 @@
+{
+ "meta": {
+  "gpu": "nvidia turing D3D12 driver version 32.0.15.6094",
+  "backend": "Dawn via the webgpu npm package",
+  "width": 2160,
+  "height": 2160,
+  "fovYDeg": 90,
+  "ppd": 18.849555921538762,
+  "frames": 120,
+  "date": "2026-11-26",
+  "scene": "splatweb procedural demo scene, SH degree 3",
+  "trackingErrorDeg": 1,
+  "latencyMarginDeg": 2,
+  "note": "GPU timestamp queries; full-res and foveated interleaved frame by frame; saving = 1 - median per-frame ratio over frames whose full-res time is within 25 % of the run minimum (keptFrames/allFrames); GPU shared with other processes"
+ },
+ "results": [
+  {
+   "splats": 1000000,
+   "mode": "splatweb SplatRenderer (unmodified)",
+   "totalMs": 23.724032
+  },
+  {
+   "splats": 1000000,
+   "mode": "full",
+   "total": 21.757952,
+   "preprocess": 0.917504,
+   "sort": 4.128768,
+   "periphery": 16.71168,
+   "inset": 0,
+   "composite": 0,
+   "visible": 1000000,
+   "fullTotal": 21.757952,
+   "savingMedian": 0,
+   "keptFrames": 116,
+   "allFrames": 120,
+   "savingAllFrames": 0
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 5,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.28193501371742113,
+   "total": 18.219008,
+   "preprocess": 0.917504,
+   "sort": 4.128768,
+   "periphery": 6.88128,
+   "inset": 6.094848,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.020096,
+   "savingMedian": 0.17041800643086824,
+   "keptFrames": 107,
+   "allFrames": 120,
+   "savingAllFrames": 0.17041800643086824,
+   "saving": 0.17041800643086824,
+   "psnr": {
+    "fovea": 70.26749456466499,
+    "blend": 38.24013651188614,
+    "periphery": 43.04424802244589
+   },
+   "ssim": {
+    "fovea": 0.9999289570630003,
+    "blend": 0.9908142257329422,
+    "periphery": 0.9917380267324258
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     887,
+     887,
+     386,
+     386
+    ],
+    "rInnerPx": 94.48775660799795,
+    "rOuterPx": 190.43313916514222
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 10,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.32310013717421127,
+   "total": 20.578304,
+   "preprocess": 0.917504,
+   "sort": 4.128768,
+   "periphery": 6.88128,
+   "inset": 8.257536,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.085632,
+   "savingMedian": 0.07507507507507516,
+   "keptFrames": 119,
+   "allFrames": 120,
+   "savingAllFrames": 0.07507507507507516,
+   "saving": 0.07507507507507516,
+   "psnr": {
+    "fovea": 70.96938074484471,
+    "blend": 38.493236693500876,
+    "periphery": 44.20608705238854
+   },
+   "ssim": {
+    "fovea": 0.9999429260119168,
+    "blend": 0.990935359748925,
+    "periphery": 0.9922615022085401
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     788,
+     788,
+     584,
+     584
+    ],
+    "rInnerPx": 190.43313916514222,
+    "rOuterPx": 289.3851278256126
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 15,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.3844444444444444,
+   "total": 23.92064,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 6.88128,
+   "inset": 11.534336,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 21.95456,
+   "savingMedian": -0.07861635220125796,
+   "keptFrames": 119,
+   "allFrames": 120,
+   "savingAllFrames": -0.07861635220125796,
+   "saving": -0.07861635220125796,
+   "psnr": {
+    "fovea": 71.41783692890974,
+    "blend": 39.89957466792398,
+    "periphery": 46.1198219595653
+   },
+   "ssim": {
+    "fovea": 0.9999476979380153,
+    "blend": 0.9920316741275685,
+    "periphery": 0.9928977845485367
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     684,
+     684,
+     792,
+     792
+    ],
+    "rInnerPx": 289.3851278256126,
+    "rOuterPx": 393.0878530074986
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 20,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.4695096021947874,
+   "total": 26.86976,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 7.012352,
+   "inset": 14.614528,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.413312,
+   "savingMedian": -0.20543806646525664,
+   "keptFrames": 115,
+   "allFrames": 120,
+   "savingAllFrames": -0.20547945205479468,
+   "saving": -0.20543806646525664,
+   "psnr": {
+    "fovea": 71.62013488588579,
+    "blend": 45.86517995863127,
+    "periphery": 48.085559379639726
+   },
+   "ssim": {
+    "fovea": 0.9999504054636088,
+    "blend": 0.9951106964756514,
+    "periphery": 0.9934921508899478
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     574,
+     574,
+     1012,
+     1012
+    ],
+    "rInnerPx": 393.0878530074986,
+    "rOuterPx": 503.6122708073986
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 5,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.14304612482853224,
+   "total": 15.925248,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 4.784128,
+   "inset": 5.89824,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.478848,
+   "savingMedian": 0.2921348314606741,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.2921348314606741,
+   "saving": 0.2921348314606741,
+   "psnr": {
+    "fovea": 70.26749456466499,
+    "blend": 32.16715839408292,
+    "periphery": 38.039094012749466
+   },
+   "ssim": {
+    "fovea": 0.9999289593600001,
+    "blend": 0.9762860329109851,
+    "periphery": 0.9880413479099517
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     887,
+     887,
+     386,
+     386
+    ],
+    "rInnerPx": 94.48775660799795,
+    "rOuterPx": 190.43313916514222
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 10,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.18421124828532237,
+   "total": 18.219008,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 4.849664,
+   "inset": 8.126464,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.478848,
+   "savingMedian": 0.18654434250764518,
+   "keptFrames": 117,
+   "allFrames": 120,
+   "savingAllFrames": 0.18696883852691226,
+   "saving": 0.18654434250764518,
+   "psnr": {
+    "fovea": 70.96938074484471,
+    "blend": 33.09317971650195,
+    "periphery": 39.35404817370731
+   },
+   "ssim": {
+    "fovea": 0.9999429254764044,
+    "blend": 0.9802878829738847,
+    "periphery": 0.9893384182881154
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     788,
+     788,
+     584,
+     584
+    ],
+    "rInnerPx": 190.43313916514222,
+    "rOuterPx": 289.3851278256126
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 15,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.24555555555555555,
+   "total": 21.62688,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 4.784128,
+   "inset": 11.599872,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.740992,
+   "savingMedian": 0.03932584269662909,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.03932584269662909,
+   "saving": 0.03932584269662909,
+   "psnr": {
+    "fovea": 71.41783692890974,
+    "blend": 34.87548508928458,
+    "periphery": 41.25614911152716
+   },
+   "ssim": {
+    "fovea": 0.9999476980237845,
+    "blend": 0.9850305148250746,
+    "periphery": 0.9906598752757196
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     684,
+     684,
+     792,
+     792
+    ],
+    "rInnerPx": 289.3851278256126,
+    "rOuterPx": 393.0878530074986
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 20,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.3306207133058985,
+   "total": 16.121856,
+   "preprocess": 0.917504,
+   "sort": 2.686976,
+   "periphery": 3.145728,
+   "inset": 9.371648,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 15.269888,
+   "savingMedian": -0.05579399141630903,
+   "keptFrames": 5,
+   "allFrames": 120,
+   "savingAllFrames": -0.09036144578313254,
+   "saving": -0.05579399141630903,
+   "psnr": {
+    "fovea": 71.62013488588579,
+    "blend": 40.05781890715514,
+    "periphery": 43.604438687874385
+   },
+   "ssim": {
+    "fovea": 0.9999504053525038,
+    "blend": 0.9919661331614046,
+    "periphery": 0.9918992766644857
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     574,
+     574,
+     1012,
+     1012
+    ],
+    "rInnerPx": 393.0878530074986,
+    "rOuterPx": 503.6122708073986
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 5,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.09443501371742112,
+   "total": 15.40096,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 3.93216,
+   "inset": 6.160384,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.675456,
+   "savingMedian": 0.3149171270718232,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.3149171270718232,
+   "saving": 0.3149171270718232,
+   "psnr": {
+    "fovea": 70.26749456466499,
+    "blend": 28.666241225924974,
+    "periphery": 34.986358981924425
+   },
+   "ssim": {
+    "fovea": 0.9999289613681243,
+    "blend": 0.9579952580381663,
+    "periphery": 0.9842832445587743
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     887,
+     887,
+     386,
+     386
+    ],
+    "rInnerPx": 94.48775660799795,
+    "rOuterPx": 190.43313916514222
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 10,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.13560013717421124,
+   "total": 17.825792,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 3.93216,
+   "inset": 8.257536,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.740992,
+   "savingMedian": 0.2183544303797469,
+   "keptFrames": 119,
+   "allFrames": 120,
+   "savingAllFrames": 0.2183544303797469,
+   "saving": 0.2183544303797469,
+   "psnr": {
+    "fovea": 70.96938074484471,
+    "blend": 30.01911454881331,
+    "periphery": 36.27765485428493
+   },
+   "ssim": {
+    "fovea": 0.9999429247160527,
+    "blend": 0.9684291464574795,
+    "periphery": 0.986397354790575
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     788,
+     788,
+     584,
+     584
+    ],
+    "rInnerPx": 190.43313916514222,
+    "rOuterPx": 289.3851278256126
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 15,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.19694444444444445,
+   "total": 15.925248,
+   "preprocess": 0.917504,
+   "sort": 2.94912,
+   "periphery": 3.145728,
+   "inset": 8.84736,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 16.973824,
+   "savingMedian": 0.03187250996015922,
+   "keptFrames": 7,
+   "allFrames": 120,
+   "savingAllFrames": 0.06287425149700587,
+   "saving": 0.03187250996015922,
+   "psnr": {
+    "fovea": 71.41783692890974,
+    "blend": 32.01147422586767,
+    "periphery": 37.983666414407715
+   },
+   "ssim": {
+    "fovea": 0.9999476982177158,
+    "blend": 0.9772737782900698,
+    "periphery": 0.9884563135549808
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     684,
+     684,
+     792,
+     792
+    ],
+    "rInnerPx": 289.3851278256126,
+    "rOuterPx": 393.0878530074986
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 20,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.2820096021947874,
+   "total": 24.379392,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 3.997696,
+   "inset": 14.7456,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.806528,
+   "savingMedian": -0.06626506024096379,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": -0.06626506024096379,
+   "saving": -0.06626506024096379,
+   "psnr": {
+    "fovea": 71.62013488588579,
+    "blend": 36.531220279225174,
+    "periphery": 40.10422702770165
+   },
+   "ssim": {
+    "fovea": 0.9999504052802972,
+    "blend": 0.9881478337717527,
+    "periphery": 0.9903871883484862
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     574,
+     574,
+     1012,
+     1012
+    ],
+    "rInnerPx": 393.0878530074986,
+    "rOuterPx": 503.6122708073986
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "acuity",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 6.9,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.2953532235939643,
+   "total": 19.464192,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 7.077888,
+   "inset": 6.88128,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.740992,
+   "savingMedian": 0.14857142857142858,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.14857142857142858,
+   "saving": 0.14857142857142858,
+   "psnr": {
+    "fovea": 70.74053296014888,
+    "blend": 36.763978864391106,
+    "periphery": 43.51233758110417
+   },
+   "ssim": {
+    "fovea": 0.9999384357828959,
+    "blend": 0.9883784989662977,
+    "periphery": 0.9919514373392861
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     850,
+     850,
+     460,
+     460
+    ],
+    "rInnerPx": 130.69436050631592,
+    "rOuterPx": 227.5916967744513
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "acuity",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 9.3,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.17736968449931412,
+   "total": 17.891328,
+   "preprocess": 0.917504,
+   "sort": 4.194304,
+   "periphery": 4.849664,
+   "inset": 7.929856,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.806528,
+   "savingMedian": 0.20967741935483875,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.20967741935483875,
+   "saving": 0.20967741935483875,
+   "psnr": {
+    "fovea": 70.93319182958899,
+    "blend": 32.940208116911194,
+    "periphery": 39.13718381297645
+   },
+   "ssim": {
+    "fovea": 0.9999420061635836,
+    "blend": 0.9787612618868754,
+    "periphery": 0.9891714133138284
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     802,
+     802,
+     556,
+     556
+    ],
+    "rInnerPx": 176.85678249613892,
+    "rOuterPx": 275.28854805408304
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "acuity",
+   "gazeNdc": [
+    0,
+    0
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 11.7,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.15417438271604939,
+   "total": 18.415616,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 3.670016,
+   "inset": 9.568256,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.9376,
+   "savingMedian": 0.18484848484848493,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.18484848484848493,
+   "saving": 0.18484848484848493,
+   "psnr": {
+    "fovea": 70.76029192975362,
+    "blend": 31.124165230517853,
+    "periphery": 36.74184540380206
+   },
+   "ssim": {
+    "fovea": 0.9999385030440948,
+    "blend": 0.9746597930614257,
+    "periphery": 0.9870121673050326
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     753,
+     753,
+     654,
+     654
+    ],
+    "rInnerPx": 223.65724798217383,
+    "rOuterPx": 324.0155280418731
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 5,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.2945679012345679,
+   "total": 13.76256,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 6.946816,
+   "inset": 1.507328,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.740992,
+   "savingMedian": 0.38368580060422963,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.38368580060422963,
+   "saving": 0.38368580060422963,
+   "psnr": {
+    "fovea": "inf",
+    "blend": 39.528352574195246,
+    "periphery": 42.556467766151044
+   },
+   "ssim": {
+    "fovea": 1,
+    "blend": 0.9950174228017882,
+    "periphery": 0.9912875602812227
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     1176,
+     690,
+     456,
+     456
+    ],
+    "rInnerPx": 108.29551674636339,
+    "rOuterPx": 225.17408305376588
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 10,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.35865569272976683,
+   "total": 19.136512,
+   "preprocess": 0.98304,
+   "sort": 4.25984,
+   "periphery": 7.012352,
+   "inset": 6.684672,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 23.068672,
+   "savingMedian": 0.15714285714285714,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.15714285714285714,
+   "saving": 0.15714285714285714,
+   "psnr": {
+    "fovea": 80.410410902044,
+    "blend": 42.665740891731154,
+    "periphery": 43.02944861302805
+   },
+   "ssim": {
+    "fovea": 0.999994363299725,
+    "blend": 0.9942260446773883,
+    "periphery": 0.9915597109459034
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     1048,
+     562,
+     712,
+     712
+    ],
+    "rInnerPx": 225.17408305376588,
+    "rOuterPx": 353.7318596877134
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 15,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.4651929012345679,
+   "total": 24.444928,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 7.012352,
+   "inset": 11.993088,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 23.068672,
+   "savingMedian": -0.07336956521739135,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": -0.07336956521739135,
+   "saving": -0.07336956521739135,
+   "psnr": {
+    "fovea": 75.37208841337784,
+    "blend": 44.47345117051359,
+    "periphery": 43.39650590136127
+   },
+   "ssim": {
+    "fovea": 0.9999788842407589,
+    "blend": 0.9959326556281868,
+    "periphery": 0.9917966577027404
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     903,
+     417,
+     1002,
+     1002
+    ],
+    "rInnerPx": 353.7318596877134,
+    "rOuterPx": 498.120445660918
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 20,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.63142061042524,
+   "total": 27.656192,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 6.946816,
+   "inset": 15.204352,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.872064,
+   "savingMedian": -0.19881305637982205,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": -0.19881305637982205,
+   "saving": -0.19881305637982205,
+   "psnr": {
+    "fovea": 74.901678134273,
+    "blend": 42.798708336588206,
+    "periphery": 44.95587504744356
+   },
+   "ssim": {
+    "fovea": 0.9999756942625374,
+    "blend": 0.9961482034191506,
+    "periphery": 0.9920920975705211
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     737,
+     251,
+     1334,
+     1334
+    ],
+    "rInnerPx": 498.120445660918,
+    "rOuterPx": 664.1435939478539
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 5,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.15567901234567902,
+   "total": 11.599872,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 4.784128,
+   "inset": 1.507328,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.9376,
+   "savingMedian": 0.4879518072289156,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.4879518072289156,
+   "saving": 0.4879518072289156,
+   "psnr": {
+    "fovea": "inf",
+    "blend": 33.781047960337645,
+    "periphery": 37.42531853426752
+   },
+   "ssim": {
+    "fovea": 1,
+    "blend": 0.986685063090919,
+    "periphery": 0.9870158392448088
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     1176,
+     690,
+     456,
+     456
+    ],
+    "rInnerPx": 108.29551674636339,
+    "rOuterPx": 225.17408305376588
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 10,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.2197668038408779,
+   "total": 16.646144,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 4.849664,
+   "inset": 6.5536,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.806528,
+   "savingMedian": 0.263768115942029,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.263768115942029,
+   "saving": 0.263768115942029,
+   "psnr": {
+    "fovea": 80.410410902044,
+    "blend": 36.64773031478782,
+    "periphery": 38.06477671824159
+   },
+   "ssim": {
+    "fovea": 0.999994363299725,
+    "blend": 0.988039664814413,
+    "periphery": 0.9879209500630117
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     1048,
+     562,
+     712,
+     712
+    ],
+    "rInnerPx": 225.17408305376588,
+    "rOuterPx": 353.7318596877134
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 15,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.326304012345679,
+   "total": 21.95456,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 4.849664,
+   "inset": 11.862016,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.806528,
+   "savingMedian": 0.02409638554216864,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.02409638554216864,
+   "saving": 0.02409638554216864,
+   "psnr": {
+    "fovea": 75.37208841337784,
+    "blend": 38.42507381090262,
+    "periphery": 38.65609630554698
+   },
+   "ssim": {
+    "fovea": 0.9999788842407589,
+    "blend": 0.991620873570107,
+    "periphery": 0.9887964638218971
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     903,
+     417,
+     1002,
+     1002
+    ],
+    "rInnerPx": 353.7318596877134,
+    "rOuterPx": 498.120445660918
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 20,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.49253172153635116,
+   "total": 25.296896,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 4.9152,
+   "inset": 15.007744,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.9376,
+   "savingMedian": -0.10315186246418317,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": -0.10315186246418317,
+   "saving": -0.10315186246418317,
+   "psnr": {
+    "fovea": 74.901678134273,
+    "blend": 38.448534619437496,
+    "periphery": 40.29858794475661
+   },
+   "ssim": {
+    "fovea": 0.9999756942625374,
+    "blend": 0.9936169781141306,
+    "periphery": 0.9897946673184154
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     737,
+     251,
+     1334,
+     1334
+    ],
+    "rInnerPx": 498.120445660918,
+    "rOuterPx": 664.1435939478539
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 5,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.1070679012345679,
+   "total": 10.420224,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 3.670016,
+   "inset": 1.507328,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.806528,
+   "savingMedian": 0.5391304347826087,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.5391304347826087,
+   "saving": 0.5391304347826087,
+   "psnr": {
+    "fovea": "inf",
+    "blend": 30.895238813799075,
+    "periphery": 34.27735903777006
+   },
+   "ssim": {
+    "fovea": 1,
+    "blend": 0.9782063330494672,
+    "periphery": 0.9825323348808384
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     1176,
+     690,
+     456,
+     456
+    ],
+    "rInnerPx": 108.29551674636339,
+    "rOuterPx": 225.17408305376588
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 10,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.1711556927297668,
+   "total": 15.466496,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 3.670016,
+   "inset": 6.5536,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.740992,
+   "savingMedian": 0.3017241379310345,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.3017241379310345,
+   "saving": 0.3017241379310345,
+   "psnr": {
+    "fovea": 80.410410902044,
+    "blend": 33.0927072801505,
+    "periphery": 34.96215865224295
+   },
+   "ssim": {
+    "fovea": 0.999994363582949,
+    "blend": 0.9801988536423293,
+    "periphery": 0.9841746186271998
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     1048,
+     562,
+     712,
+     712
+    ],
+    "rInnerPx": 225.17408305376588,
+    "rOuterPx": 353.7318596877134
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 15,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.2776929012345679,
+   "total": 21.102592,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 3.670016,
+   "inset": 12.189696,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.60992,
+   "savingMedian": 0.07033639143730874,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": 0.07033639143730874,
+   "saving": 0.07033639143730874,
+   "psnr": {
+    "fovea": 75.37208841337784,
+    "blend": 34.7535201481338,
+    "periphery": 35.710048255197144
+   },
+   "ssim": {
+    "fovea": 0.9999788842407589,
+    "blend": 0.9860792497698513,
+    "periphery": 0.9859180137433174
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     903,
+     417,
+     1002,
+     1002
+    ],
+    "rInnerPx": 353.7318596877134,
+    "rOuterPx": 498.120445660918
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "grid",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 20,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.44392061042524006,
+   "total": 24.444928,
+   "preprocess": 0.98304,
+   "sort": 4.25984,
+   "periphery": 3.670016,
+   "inset": 15.40096,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 23.068672,
+   "savingMedian": -0.05438066465256797,
+   "keptFrames": 120,
+   "allFrames": 120,
+   "savingAllFrames": -0.05438066465256797,
+   "saving": -0.05438066465256797,
+   "psnr": {
+    "fovea": 74.901678134273,
+    "blend": 36.00266221831222,
+    "periphery": 37.26348028333819
+   },
+   "ssim": {
+    "fovea": 0.9999756942625374,
+    "blend": 0.9909131098907813,
+    "periphery": 0.9877600377742758
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     737,
+     251,
+     1334,
+     1334
+    ],
+    "rInnerPx": 498.120445660918,
+    "rOuterPx": 664.1435939478539
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "acuity",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.5,
+   "innerDeg": 6.9,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 3.87590736642107,
+   "shadedFraction": 0.31483624828532236,
+   "total": 15.40096,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 6.946816,
+   "inset": 3.080192,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.9376,
+   "savingMedian": 0.3180515759312321,
+   "keptFrames": 119,
+   "allFrames": 120,
+   "savingAllFrames": 0.3180515759312321,
+   "saving": 0.3180515759312321,
+   "psnr": {
+    "fovea": "inf",
+    "blend": 39.62312434662588,
+    "periphery": 42.810958567438945
+   },
+   "ssim": {
+    "fovea": 1,
+    "blend": 0.9934946582299601,
+    "periphery": 0.9913904835475739
+   },
+   "layout": {
+    "periphery": [
+     1080,
+     1080
+    ],
+    "insetRect": [
+     1129,
+     643,
+     550,
+     550
+    ],
+    "rInnerPx": 151.54870046066202,
+    "rOuterPx": 272.45331160993493
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "acuity",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.3333,
+   "innerDeg": 9.3,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 6.288069402026355,
+   "shadedFraction": 0.20847822359396434,
+   "total": 16.71168,
+   "preprocess": 0.98304,
+   "sort": 4.194304,
+   "periphery": 4.849664,
+   "inset": 6.619136,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 21.102592,
+   "savingMedian": 0.19558359621451105,
+   "keptFrames": 6,
+   "allFrames": 120,
+   "savingAllFrames": 0.30113636363636354,
+   "saving": 0.19558359621451105,
+   "psnr": {
+    "fovea": 81.68706858329726,
+    "blend": 36.32970705934448,
+    "periphery": 37.98416804390616
+   },
+   "ssim": {
+    "fovea": 0.9999953203621605,
+    "blend": 0.9875505272792832,
+    "periphery": 0.9877927203577611
+   },
+   "layout": {
+    "periphery": [
+     720,
+     720
+    ],
+    "insetRect": [
+     1067,
+     581,
+     674,
+     674
+    ],
+    "rInnerPx": 208.18800630144406,
+    "rOuterPx": 334.8899190039913
+   }
+  },
+  {
+   "splats": 1000000,
+   "mode": "foveated",
+   "tag": "acuity",
+   "gazeNdc": [
+    0.3,
+    0.15
+   ],
+   "peripheryScale": 0.25,
+   "innerDeg": 11.7,
+   "blendDeg": 5,
+   "minEccForScaleDeg": 8.698784429811838,
+   "shadedFraction": 0.2017395404663923,
+   "total": 18.153472,
+   "preprocess": 0.917504,
+   "sort": 4.25984,
+   "periphery": 4.063232,
+   "inset": 8.716288,
+   "composite": 0.065536,
+   "visible": 1000000,
+   "fullTotal": 22.872064,
+   "savingMedian": 0.20231213872832376,
+   "keptFrames": 119,
+   "allFrames": 120,
+   "savingAllFrames": 0.20231213872832376,
+   "saving": 0.20231213872832376,
+   "psnr": {
+    "fovea": 77.1370266517669,
+    "blend": 33.68577390259836,
+    "periphery": 35.20477078225338
+   },
+   "ssim": {
+    "fovea": 0.9999874222535594,
+    "blend": 0.9824058422786398,
+    "periphery": 0.9847769469472051
+   },
+   "layout": {
+    "periphery": [
+     540,
+     540
+    ],
+    "insetRect": [
+     1001,
+     515,
+     806,
+     806
+    ],
+    "rInnerPx": 267.39174937913623,
+    "rOuterPx": 400.79881009570505
+   }
+  }
+ ]
+}

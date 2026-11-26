@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "gazefov: IR eye tracking and foveated Gaussian-splat rendering"
+authors:
+  - name: "the gazefov authors"
+version: 0.1.0
+date-released: 2026-11-26
+license: MIT
+repository-code: "https://github.com/coopersimpson101-debug/gazefov"
+keywords: [eye tracking, gaze estimation, foveated rendering, gaussian splatting, webgpu]
